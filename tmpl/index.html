@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Fouad Matin</title>
+  <link rel="stylesheet" href="/css/foundation.css">
+  <link rel="stylesheet" href="/css/blog.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+  <div class="row text-center">
+    <h1>
+      <a href="/" class="name-link">Fouad Matin</a>
+    </h1>
+    <div class="text-center">
+      <p>I love to code and talk to people.</p>
+      <p>holla [at] fouad.co</p>
+    </div>
+    <ul class="inline-list social-list">
+      <li><a href="https://www.facebook.com/FouadMatin"><i class="icon-facebook"></i></a></li>
+      <li><a href="https://twitter.com/heyfouad"><i class="icon-twitter"></i></a></li>
+      <li><a href="/"><i class="icon-home"></i></a></li>
+      <li><a href="https://www.github.com/fouad"><i class="icon-github"></i></a></li>
+      <li><a href="https://plus.google.com/115195823158911929894?rel=author"><i class="icon-google-plus"></i></a></li>
+    </ul>
+  </div>
+  {{range .}}
+    <div class="row">
+      <div class="post large-7 large-centered columns">
+        <h2 class="text-center">
+          <a href="/{{.Key}}/">{{.Title}}</a>
+        </h2>
+      </div>
+    </div>
+  {{end}}
+</body>
+</html>

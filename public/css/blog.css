@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2175DD;
+}
+
+a:hover {
+  color: #288ce4;
+}
+
+.social-list > li {
+  display: inline-block;
+  float: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.name-link {
+  text-shadow: 1px -1px #fff;
+  margin-bottom: 0;
+}
+
+h1 a, h2 a, h3 a {
+  color: #423f37;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+  color: #000;
+}
+
+code {
+  background-color: #fef;
+  padding: 0 2px;
+  box-shadow: 1px 1px 1px #ede;
+}
+
+.post {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.post h2 {
+  text-align: center;
+}
